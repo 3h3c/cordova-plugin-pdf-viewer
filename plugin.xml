@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="com.sopjs.cordova.plugin.pdf-viewer"
+        version="0.1.1">
+
+    <name>PDFViewer</name>
+
+    <description>A PDF Viewer for Cordova 3.x.x</description>
+    <repo>https://github.com/sopjs/cordova-plugin-pdf-viewer.git</repo>
+    <keywords>zip, unzip, ios, android, windows phone, wp8, cordova, phonegap</keywords>
+    <license>Apache 2.0</license>
+
+    <author>Edouard DAUBIN</author>
+
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
+
+    <!-- ios -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+    <feature name="CDVPDFViewer">
+			<param name="ios-package" value="CDVPDFViewer" />
+    </feature>
+        </config-file>
+
+				<asset src="www/CDVPDFViewer.js" target="CDVPDFViewer.js" />
+				
+				<header-file src="src/ios/AddFilesToProject.png" />
+				<header-file src="src/ios/AddProjectsToProject2.png" />
+				<header-file src="src/ios/CDVPDFViewerViewController.h" />
+				<header-file src="src/ios/CDVPDFViewerViewController.m" />
+				<header-file src="src/ios/CDVPDFViewerViewController.xib" />
+				<header-file src="src/ios/CGPDFDocument.h" />
+				<header-file src="src/ios/CGPDFDocument.m" />
+				<header-file src="src/ios/CopyJSToWWW.png" />
+				<header-file src="src/ios/CopyJSToWWW2.png" />
+				<header-file src="src/ios/CordovaBot.pdf" />
+				<header-file src="src/ios/EditConfigXML.png" />
+				<header-file src="src/ios/IndexHTML.png" />
+				<header-file src="src/ios/MessageUI.png" />
+				<header-file src="src/ios/Reader-Button-H.png" />
+				<header-file src="src/ios/Reader-Button-H@2x.png" />
+				<header-file src="src/ios/Reader-Button-N.png" />
+				<header-file src="src/ios/Reader-Button-N@2x.png" />
+				<header-file src="src/ios/Reader-Email.png" />
+				<header-file src="src/ios/Reader-Email@2x.png" />
+				<header-file src="src/ios/Reader-Mark-N.png" />
+				<header-file src="src/ios/Reader-Mark-N@2x.png" />
+				<header-file src="src/ios/Reader-Mark-Y.png" />
+				<header-file src="src/ios/Reader-Mark-Y@2x.png" />
+				<header-file src="src/ios/Reader-Print.png" />
+				<header-file src="src/ios/Reader-Print@2x.png" />
+				<header-file src="src/ios/Reader-Thumbs.png" />
+				<header-file src="src/ios/Reader-Thumbs@2x.png" />
+				<header-file src="src/ios/ReaderAppDelegate.h" />
+				<header-file src="src/ios/ReaderAppDelegate.m" />
+				<header-file src="src/ios/ReaderBookDelegate.h" />
+				<header-file src="src/ios/ReaderBookDelegate.m" />
+				<header-file src="src/ios/ReaderConstants.h" />
+				<header-file src="src/ios/ReaderConstants.m" />
+				<header-file src="src/ios/ReaderContentPage.h" />
+				<header-file src="src/ios/ReaderContentPage.m" />
+				<header-file src="src/ios/ReaderContentTile.h" />
+				<header-file src="src/ios/ReaderContentTile.m" />
+				<header-file src="src/ios/ReaderContentView.h" />
+				<header-file src="src/ios/ReaderContentView.m" />
+				<header-file src="src/ios/ReaderDemoController.h" />
+				<header-file src="src/ios/ReaderDemoController.m" />
+				<header-file src="src/ios/ReaderDocument.h" />
+				<header-file src="src/ios/ReaderDocument.m" />
+				<header-file src="src/ios/ReaderDocumentOutline.h" />
+				<header-file src="src/ios/ReaderDocumentOutline.m" />
+				<header-file src="src/ios/ReaderMainPagebar.h" />
+				<header-file src="src/ios/ReaderMainPagebar.m" />
+				<header-file src="src/ios/ReaderMainToolbar.h" />
+				<header-file src="src/ios/ReaderMainToolbar.m" />
+				<header-file src="src/ios/ReaderThumbCache.h" />
+				<header-file src="src/ios/ReaderThumbCache.m" />
+				<header-file src="src/ios/ReaderThumbFetch.h" />
+				<header-file src="src/ios/ReaderThumbFetch.m" />
+				<header-file src="src/ios/ReaderThumbQueue.h" />
+				<header-file src="src/ios/ReaderThumbQueue.m" />
+				<header-file src="src/ios/ReaderThumbRender.h" />
+				<header-file src="src/ios/ReaderThumbRender.m" />
+				<header-file src="src/ios/ReaderThumbRequest.h" />
+				<header-file src="src/ios/ReaderThumbRequest.m" />
+				<header-file src="src/ios/ReaderThumbView.h" />
+				<header-file src="src/ios/ReaderThumbView.m" />
+				<header-file src="src/ios/ReaderThumbsView.h" />
+				<header-file src="src/ios/ReaderThumbsView.m" />
+				<header-file src="src/ios/ReaderViewController.h" />
+				<header-file src="src/ios/ReaderViewController.m" />
+				<header-file src="src/ios/SampleIndexHTML.png" />
+				<header-file src="src/ios/ScreenShot1.png" />
+				<header-file src="src/ios/ScreenShot2.png" />
+				<header-file src="src/ios/ThumbsMainToolbar.h" />
+				<header-file src="src/ios/ThumbsMainToolbar.m" />
+				<header-file src="src/ios/ThumbsViewController.h" />
+				<header-file src="src/ios/ThumbsViewController.m" />
+				<header-file src="src/ios/UIXToolbarView.h" />
+				<header-file src="src/ios/UIXToolbarView.m" />
+				<header-file src="src/ios/index.html" />
+				<header-file src="src/ios/ipadlandscapeview.png" />
+				<header-file src="src/ios/ipadlandscapeview2.png" />
+				<header-file src="src/ios/ipadlandscapeview3.png" />
+				<header-file src="src/ios/ipadlandscapeview4.png" />
+				<header-file src="src/ios/ipadlandscapeview5.png" />
+				<header-file src="src/ios/ipadportraitview.png" />
+				<header-file src="src/ios/iphoneportrait.png" />
+				<header-file src="src/ios/viewlandscape.png" />
+				<header-file src="src/ios/viewlandscape2.png" />
+				<header-file src="src/ios/viewportrait.png" />
+				<header-file src="src/ios/viewportrait2.png" />
+				
+				<header-file src="src/ios/CDVPDFViewer.h" />
+				<source-file src="src/ios/CDVPDFViewer.m" />
+
+    </platform>
+
+</plugin>
