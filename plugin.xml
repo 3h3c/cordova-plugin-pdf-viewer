@@ -28,19 +28,14 @@
 
 				<asset src="www/CDVPDFViewer.js" target="CDVPDFViewer.js" />
 				
-				<source-file src="src/ios/AddFilesToProject.png" />
-				<source-file src="src/ios/AddProjectsToProject2.png" />
-				<source-file src="src/ios/CDVPDFViewerViewController.h" />
+				<header-file src="src/ios/CDVPDFViewerViewController.h" />
 				<source-file src="src/ios/CDVPDFViewerViewController.m" />
 				<source-file src="src/ios/CDVPDFViewerViewController.xib" />
-				<source-file src="src/ios/CGPDFDocument.h" />
+
+				<header-file src="src/ios/CGPDFDocument.h" />
 				<source-file src="src/ios/CGPDFDocument.m" />
-				<source-file src="src/ios/CopyJSToWWW.png" />
-				<source-file src="src/ios/CopyJSToWWW2.png" />
+
 				<source-file src="src/ios/CordovaBot.pdf" />
-				<source-file src="src/ios/EditConfigXML.png" />
-				<source-file src="src/ios/IndexHTML.png" />
-				<source-file src="src/ios/MessageUI.png" />
 				<source-file src="src/ios/Reader-Button-H.png" />
 				<source-file src="src/ios/Reader-Button-H@2x.png" />
 				<source-file src="src/ios/Reader-Button-N.png" />
@@ -55,66 +50,73 @@
 				<source-file src="src/ios/Reader-Print@2x.png" />
 				<source-file src="src/ios/Reader-Thumbs.png" />
 				<source-file src="src/ios/Reader-Thumbs@2x.png" />
-				<source-file src="src/ios/ReaderAppDelegate.h" />
+
+				<header-file src="src/ios/ReaderAppDelegate.h" />
 				<source-file src="src/ios/ReaderAppDelegate.m" />
-				<source-file src="src/ios/ReaderBookDelegate.h" />
+
+				<header-file src="src/ios/ReaderBookDelegate.h" />
 				<source-file src="src/ios/ReaderBookDelegate.m" />
-				<source-file src="src/ios/ReaderConstants.h" />
+
+				<header-file src="src/ios/ReaderConstants.h" />
 				<source-file src="src/ios/ReaderConstants.m" />
-				<source-file src="src/ios/ReaderContentPage.h" />
+
+				<header-file src="src/ios/ReaderContentPage.h" />
 				<source-file src="src/ios/ReaderContentPage.m" />
-				<source-file src="src/ios/ReaderContentTile.h" />
+
+				<header-file src="src/ios/ReaderContentTile.h" />
 				<source-file src="src/ios/ReaderContentTile.m" />
-				<source-file src="src/ios/ReaderContentView.h" />
+
+				<header-file src="src/ios/ReaderContentView.h" />
 				<source-file src="src/ios/ReaderContentView.m" />
-				<source-file src="src/ios/ReaderDemoController.h" />
+
+				<header-file src="src/ios/ReaderDemoController.h" />
 				<source-file src="src/ios/ReaderDemoController.m" />
-				<source-file src="src/ios/ReaderDocument.h" />
+
+				<header-file src="src/ios/ReaderDocument.h" />
 				<source-file src="src/ios/ReaderDocument.m" />
-				<source-file src="src/ios/ReaderDocumentOutline.h" />
+
+				<header-file src="src/ios/ReaderDocumentOutline.h" />
 				<source-file src="src/ios/ReaderDocumentOutline.m" />
-				<source-file src="src/ios/ReaderMainPagebar.h" />
+
+				<header-file src="src/ios/ReaderMainPagebar.h" />
 				<source-file src="src/ios/ReaderMainPagebar.m" />
-				<source-file src="src/ios/ReaderMainToolbar.h" />
+
+				<header-file src="src/ios/ReaderMainToolbar.h" />
 				<source-file src="src/ios/ReaderMainToolbar.m" />
-				<source-file src="src/ios/ReaderThumbCache.h" />
+
+				<header-file src="src/ios/ReaderThumbCache.h" />
 				<source-file src="src/ios/ReaderThumbCache.m" />
-				<source-file src="src/ios/ReaderThumbFetch.h" />
+
+				<header-file src="src/ios/ReaderThumbFetch.h" />
 				<source-file src="src/ios/ReaderThumbFetch.m" />
-				<source-file src="src/ios/ReaderThumbQueue.h" />
+
+				<header-file src="src/ios/ReaderThumbQueue.h" />
 				<source-file src="src/ios/ReaderThumbQueue.m" />
-				<source-file src="src/ios/ReaderThumbRender.h" />
+
+				<header-file src="src/ios/ReaderThumbRender.h" />
 				<source-file src="src/ios/ReaderThumbRender.m" />
-				<source-file src="src/ios/ReaderThumbRequest.h" />
+
+				<header-file src="src/ios/ReaderThumbRequest.h" />
 				<source-file src="src/ios/ReaderThumbRequest.m" />
-				<source-file src="src/ios/ReaderThumbView.h" />
+
+				<header-file src="src/ios/ReaderThumbView.h" />
 				<source-file src="src/ios/ReaderThumbView.m" />
-				<source-file src="src/ios/ReaderThumbsView.h" />
+
+				<header-file src="src/ios/ReaderThumbsView.h" />
 				<source-file src="src/ios/ReaderThumbsView.m" />
-				<source-file src="src/ios/ReaderViewController.h" />
+
+				<header-file src="src/ios/ReaderViewController.h" />
 				<source-file src="src/ios/ReaderViewController.m" />
-				<source-file src="src/ios/SampleIndexHTML.png" />
-				<source-file src="src/ios/ScreenShot1.png" />
-				<source-file src="src/ios/ScreenShot2.png" />
-				<source-file src="src/ios/ThumbsMainToolbar.h" />
+
+				<header-file src="src/ios/ThumbsMainToolbar.h" />
 				<source-file src="src/ios/ThumbsMainToolbar.m" />
-				<source-file src="src/ios/ThumbsViewController.h" />
+
+				<header-file src="src/ios/ThumbsViewController.h" />
 				<source-file src="src/ios/ThumbsViewController.m" />
-				<source-file src="src/ios/UIXToolbarView.h" />
+
+				<header-file src="src/ios/UIXToolbarView.h" />
 				<source-file src="src/ios/UIXToolbarView.m" />
-				<source-file src="src/ios/index.html" />
-				<source-file src="src/ios/ipadlandscapeview.png" />
-				<source-file src="src/ios/ipadlandscapeview2.png" />
-				<source-file src="src/ios/ipadlandscapeview3.png" />
-				<source-file src="src/ios/ipadlandscapeview4.png" />
-				<source-file src="src/ios/ipadlandscapeview5.png" />
-				<source-file src="src/ios/ipadportraitview.png" />
-				<source-file src="src/ios/iphoneportrait.png" />
-				<source-file src="src/ios/viewlandscape.png" />
-				<source-file src="src/ios/viewlandscape2.png" />
-				<source-file src="src/ios/viewportrait.png" />
-				<source-file src="src/ios/viewportrait2.png" />
-				
+
 				<header-file src="src/ios/CDVPDFViewer.h" />
 				<source-file src="src/ios/CDVPDFViewer.m" />
 
